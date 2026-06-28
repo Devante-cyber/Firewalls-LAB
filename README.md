@@ -1,4 +1,4 @@
-# Firewalls-LAB
+# Firewalls-LAB(allow Internet Control Message Protocol) "ICMP"
 Configure firewall rules to allow or block protocols/ports/services
 
 
