@@ -65,7 +65,28 @@ ICMP inbound rule created and enabled.
 <img width="975" height="648" alt="image" src="https://github.com/user-attachments/assets/022cd3c7-4f8c-4863-91ba-d363cf3a96e0" />
 
 •	Run the ping command with destination device ZYWIN02.
+
 •	ping ZYWIN02
+
 •	ping is successful because the ICMP inbound rule on ZYWIN02 allows ICMP messages.
+
+<img width="975" height="340" alt="image" src="https://github.com/user-attachments/assets/fa9e6fd1-cee7-43a4-9336-787e6f9d27b5" />
+
+•	Select ZYWIN02 in the right pane, and return to Windows Defender Firewall with Advanced Security.
+
+•	Disable the inbound ICMP rule by right-clicking on inbound rule ICMP and selecting Disable Rule.
+
+<img width="975" height="700" alt="image" src="https://github.com/user-attachments/assets/3a4732c3-61c3-483e-bc04-7ccc2bd81ea5" />
+
+•	In a PowerShell window on ZYWIN01, run the ping command with destination device ZYWIN02.
+
+•	ping ZYWIN02
+
+•	ping is unsuccessful because the ICMP inbound rule on ZYWIN02 is disabled, not allowing ICMP messages.
+
+<img width="975" height="239" alt="image" src="https://github.com/user-attachments/assets/8e5ab3cc-5d3f-4c5c-956e-f7d6cd08bc68" />
+
+•	ping ZYWIN02 executed.
+
 
 
